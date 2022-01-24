@@ -70,13 +70,11 @@ public class Runebubi {
 	                  System.out.println(" jogo resetado ");
 			  p1.JogarN();
 					   		 		 
-		   }
-		   
+		   }	   
 		   if( resp == 8 ) { 
 			  System.out.println(" Encerrando ");
 			  break;				    
-		   }
-			  		  
+		   }			  		  
 	     }				     		
       }
 }
