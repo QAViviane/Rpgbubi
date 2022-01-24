@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class Runebubi {
 
-	public static void main(String[] args) 
-	{
-	    Scanner Lerlinha= new Scanner(System.in);
+	public static void main(String[] args) {
+	        Scanner Lerlinha= new Scanner(System.in);
 		
 		//Instaciando a classe personagem 
 		Personagens p = new Personagens();	
@@ -14,14 +13,14 @@ public class Runebubi {
 		//Colocando os valores no contrutor da classe play
 		Play p1 = new Play(4,5,6,10);
 		
-		//instanciando o metodo menu 
-		Menu m = new Menu();
+	        //instanciando o metodo menu 
+	        Menu m = new Menu();
 	  
-		int resp = 0;
-		int dificuldade = 6;
-		int facil = 12;
-		int dificil = 6;
-		int opcao = 0;
+		 int resp = 0;
+	         int dificuldade = 6;
+		 int facil = 12;
+	         int dificil = 6;
+	         int opcao = 0;
 		
 		
 		  while(resp != 8) {
@@ -78,6 +77,6 @@ public class Runebubi {
 			  break;				    
 		   }
 			  		  
-	     }				     		 
-	}
+	     }				     		
+      }
 }
