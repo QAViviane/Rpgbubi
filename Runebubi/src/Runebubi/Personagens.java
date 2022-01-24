@@ -29,17 +29,17 @@ public class Personagens
                 Lc.setVida(10);
                 Lc1.add(Lc);
 		
-               Lcats Lc2 = new Lcats();
-	       Lc2.setNome(" Coin ");
-               Lc2.setDescricao(" Bagunceiro ");
-               Lc2.setVida(10);
-               Lc1.add(Lc2);
+                Lcats Lc2 = new Lcats();
+	        Lc2.setNome(" Coin ");
+                Lc2.setDescricao(" Bagunceiro ");
+                Lc2.setVida(10);
+                Lc1.add(Lc2);
         
-              Lcats Lc3 = new Lcats();
-	      Lc3.setNome(" Abua ");
-              Lc3.setDescricao(" Carinhosa ");
-              Lc3.setVida(10);
-              Lc1.add(Lc3);
+                Lcats Lc3 = new Lcats();
+	        Lc3.setNome(" Abua ");
+                Lc3.setDescricao(" Carinhosa ");
+                Lc3.setVida(10);
+                Lc1.add(Lc3);
      }   
 
 /**
