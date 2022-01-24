@@ -22,7 +22,7 @@ public class Play extends Lcats {
 	  setMob(mob); 
 	  setMiniboss(miniboss);
 	  setBoss(boss); 
-      setVida(vida);
+          setVida(vida);
    }
    
 /**
@@ -103,7 +103,7 @@ public class Play extends Lcats {
 			   }
 			   else  {
 				   
-				   System.out.println( " voce n„o matou o mob e sofreu um ataque " );
+				   System.out.println( " voce n√£o matou o mob e sofreu um ataque " );
 				   int dano = 2;
 				   int vid = getVida(); 
 				   setVida(vid - dano );		   
@@ -143,7 +143,7 @@ public class Play extends Lcats {
 			   }
 			   else {
 				   
-				   System.out.println( " voce n„o matou a white cat e sofreu um ataque " );
+				   System.out.println( " voce n√£o matou a white cat e sofreu um ataque " );
 				   int dano = 4;
 				   int vid = getVida(); 
 				   setVida(vid - dano );
@@ -181,11 +181,11 @@ public class Play extends Lcats {
 				   
 				   System.out.println( " Voce matou o papa " );
 				   System.out.println( " O grande papa foi derrotado  " );
-				   System.out.println( " Agora todos est„o livres Parabens voce ganhou  " );
+				   System.out.println( " Agora todos est√£o livres Parabens voce ganhou  " );
 			   }
 			   else  {
 				   
-				   System.out.println( " voce n„o matou o papa " );
+				   System.out.println( " voce n√£o matou o papa " );
 				   System.out.println( " Papa diz HAHAHA " );
 				   int dano = 6;
 				   int vid = getVida(); 
