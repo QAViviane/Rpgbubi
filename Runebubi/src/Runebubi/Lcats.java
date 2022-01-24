@@ -39,15 +39,13 @@ public class Lcats
 		return descricao;
 	}
 	public void setDescricao(String descricao) {
-		this.descricao = descricao;
+	       this.descricao = descricao;
 	}
 
 	public int getVida() {
 		return vida;
 	}
 	public void setVida(int vida) {
-		this.vida = vida;
-	}
-	
-	
+	       this.vida = vida;
+	}	
 }
