@@ -29,66 +29,55 @@ public class Runebubi {
 			
 		  
 		   if( resp == 1 )  {
-			   System.out.println(" Exibindo ");
-			   p.Exibirl();
-			   
+		        System.out.println(" Exibindo ");
+		        p.Exibirl();		   
 		   }
 		   if( resp == 2 )    {
-			 System.out.println(" SeleÁ„o de personagens ");
-			 p.Escolher();
-			   		   
+			 System.out.println(" Sele√ß√£o de personagens ");
+			 p.Escolher();		   		   
 		   }					 			
 		   if( resp == 3 ) {  
-			  System.out.println(" jogo esta na dificuldade padr„o dificiul para alterar aperte 6 no menu ");
+			  System.out.println(" jogo esta na dificuldade padr√£o dificiul para alterar aperte 6 no menu ");
 			  System.out.println(" Fase 1 iniciada ");
 			  p1.Dado(dificuldade);
-		      p1.Combatem();
-				   		 		 
+		          p1.Combatem();				   		 		 
 		   }			
 		
 		   if( resp == 4 )  {  
-			  System.out.println(" jogo esta na dificuldade padr„o dificiul para alterar aperte 6 no menu ");
+			  System.out.println(" jogo esta na dificuldade padr√£o dificiul para alterar aperte 6 no menu ");
 			  System.out.println(" Fase 2 iniciada ");
 			  p1.Dado(dificuldade);
-		      p1.Combatemini();
-				   		 		 
+		          p1.Combatemini();				   		 		 
 		   }			
 		   if( resp == 5 ) { 
-			  System.out.println(" jogo esta na dificuldade padr„o dificiul para alterar aperte 6 no menu ");
+			  System.out.println(" jogo esta na dificuldade padr√£o dificiul para alterar aperte 6 no menu ");
 			  System.out.println(" Fase 3 iniciada ");
 			  p1.Dado(dificuldade);
-		      p1.Combateboss();
-				   		 		 
+		          p1.Combateboss();		   		 		 
 		   }
-		 
-		   if( resp == 6 ) { 
-				  System.out.println(" Escolha Dificuldade ");
-				  opcao = Lerlinha.nextInt();	  
-				  if(opcao == 1) {
-					  
-					  dificuldade = facil;
-					  System.out.println(" Dificuldade facil escolhida ");
-				  }
-                  if(opcao == 2) {
-					  
-					  dificuldade = dificil;
-					  System.out.println(" dificuldade dificil escolhida "); 
-				  }   		 		 
-	      }		   
-		   if( resp == 7 ) { 
-				  System.out.println(" jogo resetado ");
-				  p1.JogarN();
+	           if( resp == 6 ) { 
+			  System.out.println(" Escolha Dificuldade ");
+			  opcao = Lerlinha.nextInt();	  
+		          if(opcao == 1) {				  
+			  dificuldade = facil;
+			  System.out.println(" Dificuldade facil escolhida ");
+		          }
+                          if(opcao == 2) {
+			  dificuldade = dificil;
+			  System.out.println(" dificuldade dificil escolhida "); 
+		          }   		 		 
+	           }		   
+                   if( resp == 7 ) { 
+	                  System.out.println(" jogo resetado ");
+			  p1.JogarN();
 					   		 		 
-			   }
+		  }
 		   
 		   if( resp == 8 ) { 
-				  System.out.println(" Encerrando ");
-				  break;
-					   		 		 
-	     }
-		   
-		}				     
-        		 
+			  System.out.println(" Encerrando ");
+			  break;				    
+		   }
+			  		  
+	     }				     		 
 	}
-
 }
